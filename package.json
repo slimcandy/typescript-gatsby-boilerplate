@@ -2,10 +2,20 @@
   "name": "type-script-gatsby-boilerplate",
   "version": "1.0.0",
   "private": true,
-  "description": "type-script-gatsby-boilerplate",
-  "author": "SlimCandy",
+  "description": "Educational repository on how to set up a personal blog using Gatsby and Sanity.io",
+  "author": "@slimcandy",
+  "license": "MIT",
   "keywords": [
-    "gatsby"
+    "Gatsby",
+    "Sanity.io",
+    "personal blog",
+    "headless CMS",
+    "Portable Text",
+    "code highlighting",
+    "linting",
+    "formatting",
+    "Netlify",
+    "npm"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -56,5 +66,13 @@
   "engines": {
     "node": ">=18.14.2",
     "npm": ">=9.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slimcandy/typescript-gatsby-boilerplate-production.git"
+  },
+  "bugs": {
+    "url": "https://github.com/slimcandy/typescript-gatsby-boilerplate-production/issues"
+  },
+  "homepage": "https://gatsby.js.garden"
 }

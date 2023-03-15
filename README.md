@@ -1,49 +1,49 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal TypeScript Starter
-</h1>
+# How to Set Up Gatsby with Sanity.io for Your Personal Blog
 
-## 🚀 Quick start
+Welcome to this educational repository on how to set up a personal blog using
+Gatsby and Sanity.io.
 
-1.  **Create a Gatsby site.**
+## Prerequisites
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+Before getting started, please make sure that you have the following installed
+on your computer:
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
+- Node.js (18.14.2 and higher)
+- Git
 
-2.  **Start developing.**
+## Installation
 
-    Navigate into your new site’s directory and start it up.
+To get started, clone this repository onto your local machine:
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+```bash
+git clone https://github.com/slimcandy/typescript-gatsby-boilerplate-production.git
+```
 
-3.  **Open the code and start customizing!**
+Next, navigate into the cloned repository and install the necessary
+dependencies:
 
-    Your site is now running at http://localhost:8000!
+```bash
+cd typescript-gatsby-boilerplate-production
+npm install
+```
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+## Usage
 
-4.  **Learn more**
+Once the installation is complete, you can start the development server by
+running:
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+```bash
+npm start
+```
 
-## 🚀 Quick start (Netlify)
+This will start the Gatsby development server and allow you to preview your blog
+locally at http://localhost:8000.
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+Deployment
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+To deploy your personal blog, you can use a service like Netlify.
+
+License
+
+This repository is licensed under the MIT license. See LICENSE for more
+information.

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { graphql, type HeadProps, Link, type PageProps } from 'gatsby'
+import { Link, type PageProps, graphql, type HeadProps } from 'gatsby'
 
 function NoPosts(): React.ReactElement {
   return (
@@ -87,7 +87,12 @@ export function Head({
 }: HeadProps<Queries.IndexPageQuery>): React.ReactElement {
   const siteMetadata = site?.siteMetadata
 
-  return <title>{siteMetadata?.title}</title>
+  return (
+    <>
+      <title>{siteMetadata?.title}</title>
+      <body className="prose lg:prose-xl font-serif mx-8 my-4" />
+    </>
+  )
 }
 
 export const query = graphql`

@@ -6,7 +6,7 @@ async function turnArticlesIntoPages({
   actions
 }: CreatePagesArgs): Promise<void> {
   // 1. Get a template for this page
-  const postTemplate = path.resolve('./src/pages/single-post.tsx')
+  const postTemplate = path.resolve('./src/templates/single-post.tsx')
   // 2. Query all posts
 
   const { data } = await graphql<Queries.AllPostsQuery>(`

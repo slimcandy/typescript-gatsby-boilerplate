@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Refractor from 'react-refractor'
+import tsx from 'refractor/lang/tsx'
 import js from 'refractor/lang/javascript'
 import typescript from 'refractor/lang/typescript'
 import json from 'refractor/lang/json'
@@ -9,6 +10,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import { type PortableTextComponents } from '@portabletext/react'
 import { getGatsbyImageData } from 'gatsby-source-sanity'
 
+Refractor.registerLanguage(tsx)
 Refractor.registerLanguage(js)
 Refractor.registerLanguage(typescript)
 Refractor.registerLanguage(json)
